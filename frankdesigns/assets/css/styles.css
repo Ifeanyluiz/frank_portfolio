@@ -382,48 +382,6 @@ body.light-theme{
   transform: translateX(calc(70px * 6));
 }
 
-/* 
-.nav__menu{
- for light mode animation 
-}
-
-.nav__menu ul{
-  display: flex;
-  width: 350px;
-}  
-
-.nav__item{
-  position: relative;
-} 
- 
-.nav__list{
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-} 
-
-
-.nav__link{
-  position: relative;
-  color: var(--text-color);
-  font-size: 1.25rem;
-  padding: .4rem;
-  display: flex;
-  border-radius: 5rem;
-}   */
-
-
-/* Active link */
-/* .active-link{
-  background: linear-gradient(180deg,
-              hsla(var(--first-hue), var(--sat), var(--lig), 1),
-              hsla(var(--first-hue), var(--sat), var(--lig), .2)
-              );
-  box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), .4);
-  color: var(--title-color);
-} */
-
-
 /* Change background header */
 .scroll-header{
   box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
@@ -450,6 +408,11 @@ body.light-theme{
   display: block;
   color: var(--title-color);
   margin-bottom: .25rem;
+}
+
+.hello__img{
+  height: 20px;
+  transform: rotate(20deg);
 }
 
 .home__education{
