@@ -1589,21 +1589,23 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Tell Me about Your Project</h3>
 
-                        <form action="" class="contact__form">
+                        <form method="POST" name="contact" class="contact__form" data-netlify="true" data-netlify-recaptcha="true">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Names</label>
-                                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                                <input type="text" name="name" placeholder="Insert your name" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Email</label>
-                                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                                <input name="email" type="email" placeholder="Insert your email" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Project</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Describe your project" class="contact__form-input"></textarea>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Describe your project" class="contact__form-input"></textarea>
                             </div>
+
+                            <div class="field" data-netlify-recaptcha="true"></div>
 
                             <button class="button">Send Message</button>
                         </form>
